@@ -1,14 +1,17 @@
 import { cl } from "@/lib/utils";
 import Image from "next/image";
+import Link from "next/link";
 
 type BannerProps = {
     image: string;
     text: string;
+    link: string;
 };
 
 export default function Banner(props: BannerProps) {
     return (
-        <button
+        <Link
+            href={props.link}
             className={cl(
                 "w-36 h-20 rounded-lg",
                 "flex justify-center items-center hover:scale-105 transition-all",
@@ -26,6 +29,6 @@ export default function Banner(props: BannerProps) {
             <h1 className={"text-3xl font-bold text-slate-100 absolute"}>
                 {props.text}
             </h1>
-        </button>
+        </Link>
     );
 }

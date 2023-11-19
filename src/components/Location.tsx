@@ -2,7 +2,7 @@ export default function Location() {
     return (
         <button
             className={
-                "flex bg-slate-300 shadow py-0.5 px-2 rounded-lg justify-center items-center"
+                "flex bg-slate-300 shadow px-2 rounded-lg justify-center items-center"
             }
             role={"button"}
         >

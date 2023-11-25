@@ -1,9 +1,10 @@
 import { cl } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
+import { banners } from "@/lib/constants";
 
 type BannerProps = {
-    image: string;
+    id: string;
     text: string;
     link: string;
 };
@@ -18,7 +19,9 @@ export default function Banner(props: BannerProps) {
             )}
         >
             <Image
-                src={`/assets/${props.image}.jpg`}
+                src={`https://drive.google.com/uc?export=view&id=${
+                    banners[props.id]
+                }`}
                 alt={"banner"}
                 height={100}
                 width={1920}

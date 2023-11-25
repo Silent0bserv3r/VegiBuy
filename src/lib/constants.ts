@@ -90,3 +90,13 @@ export const vegiproducts: vegi[] = [
         vkey: "spinach",
     },
 ];
+
+export const banners: { [key: string]: string } = {
+    banner1: "1u6TCP4TXI4nOSOLG3xu8zcb6tBjno2g4",
+    banner2: "1fk6kXufckYbOf177l0Lp0hWNECf9s-eb",
+    banner3: "1ylFP8YhhjsayQ30NPkNP4e0DrZ-vu0jK",
+    banner4: "1hIefYRqRqANmVzJu7_XqtOS1WIAVCKJU",
+    banner5: "10Vhqa3rwnZK0LNUH9Y0bQba_kwx5Q2IY",
+    banner6: "1dQuYldJP9ZbXGG9Len2nwG647tFIqY_F",
+    promotion: "1Qt-tXSPOBDoJitlVScrklFfRw2aw4D4U",
+};
